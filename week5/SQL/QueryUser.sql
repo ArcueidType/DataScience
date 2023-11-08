@@ -1,0 +1,1 @@
+SELECT * FROM `user` WHERE age >= 20 AND age <= 30

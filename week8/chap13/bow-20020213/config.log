@@ -1,0 +1,154 @@
+This file contains any messages produced by compilers while
+running configure, to aid debugging if configure makes a mistake.
+
+configure:537: checking for gcc
+configure:614: checking whether the C compiler (gcc -g -O -Wall -Wimplicit ) works
+configure:628: gcc -o conftest -g -O -Wall -Wimplicit   conftest.c  1>&5
+configure:625:1: warning: type specifier missing, defaults to 'int' [-Wimplicit-int]
+main(){return(0);}
+^
+1 warning generated.
+configure:648: checking whether the C compiler (gcc -g -O -Wall -Wimplicit ) is a cross-compiler
+configure:653: checking whether we are using GNU C
+configure:662: gcc -E conftest.c
+configure:677: checking whether gcc accepts -g
+configure:705: checking how to run the C preprocessor
+configure:726: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:797: checking for a BSD compatible install
+configure:849: checking for ranlib
+configure:880: checking for bison
+configure:912: checking for flex
+configure:945: checking for yywrap in -lfl
+configure:964: gcc -o conftest -g -O -Wall -Wimplicit   conftest.c -lfl   1>&5
+ld: library not found for -lfl
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+configure: failed program was:
+#line 953 "configure"
+#include "confdefs.h"
+/* Override any gcc2 internal prototype to avoid an error.  */
+/* We use char because int might match the return type of a gcc2
+    builtin and then its argument prototype would still apply.  */
+char yywrap();
+
+int main() {
+yywrap()
+; return 0; }
+configure:989: checking for main in -lsocket
+configure:1004: gcc -o conftest -g -O -Wall -Wimplicit   conftest.c -lsocket   1>&5
+configure:999:12: warning: all paths through this function will call itself [-Winfinite-recursion]
+int main() {
+           ^
+1 warning generated.
+ld: library not found for -lsocket
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+configure: failed program was:
+#line 997 "configure"
+#include "confdefs.h"
+
+int main() {
+main()
+; return 0; }
+configure:1032: checking for main in -lnsl
+configure:1047: gcc -o conftest -g -O -Wall -Wimplicit   conftest.c -lnsl   1>&5
+configure:1042:12: warning: all paths through this function will call itself [-Winfinite-recursion]
+int main() {
+           ^
+1 warning generated.
+ld: library not found for -lnsl
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+configure: failed program was:
+#line 1040 "configure"
+#include "confdefs.h"
+
+int main() {
+main()
+; return 0; }
+configure:1079: checking for strerror
+configure:1107: gcc -o conftest -g -O -Wall -Wimplicit   conftest.c  1>&5
+configure:1091:6: warning: incompatible redeclaration of library function 'strerror' [-Wincompatible-library-redeclaration]
+char strerror();
+     ^
+configure:1091:6: note: 'strerror' is a builtin with type 'char *(int)'
+1 warning generated.
+configure:1136: checking for gettimeofday
+configure:1164: gcc -o conftest -g -O -Wall -Wimplicit   conftest.c  1>&5
+configure:1191: checking for random
+configure:1219: gcc -o conftest -g -O -Wall -Wimplicit   conftest.c  1>&5
+configure:1246: checking for srandom
+configure:1274: gcc -o conftest -g -O -Wall -Wimplicit   conftest.c  1>&5
+configure:1303: checking for setenv
+configure:1331: gcc -o conftest -g -O -Wall -Wimplicit   conftest.c  1>&5
+configure:1360: checking for strchr
+configure:1388: gcc -o conftest -g -O -Wall -Wimplicit   conftest.c  1>&5
+configure:1372:6: warning: incompatible redeclaration of library function 'strchr' [-Wincompatible-library-redeclaration]
+char strchr();
+     ^
+configure:1372:6: note: 'strchr' is a builtin with type 'char *(const char *, int)'
+1 warning generated.
+configure:1415: checking for strrchr
+configure:1443: gcc -o conftest -g -O -Wall -Wimplicit   conftest.c  1>&5
+configure:1427:6: warning: incompatible redeclaration of library function 'strrchr' [-Wincompatible-library-redeclaration]
+char strrchr();
+     ^
+configure:1427:6: note: 'strrchr' is a builtin with type 'char *(const char *, int)'
+1 warning generated.
+configure:1472: checking for log2f
+configure:1500: gcc -o conftest -g -O -Wall -Wimplicit   conftest.c  1>&5
+configure:1484:6: warning: incompatible redeclaration of library function 'log2f' [-Wincompatible-library-redeclaration]
+char log2f();
+     ^
+configure:1484:6: note: 'log2f' is a builtin with type 'float (float)'
+1 warning generated.
+configure:1527: checking for sqrtf
+configure:1555: gcc -o conftest -g -O -Wall -Wimplicit   conftest.c  1>&5
+configure:1539:6: warning: incompatible redeclaration of library function 'sqrtf' [-Wincompatible-library-redeclaration]
+char sqrtf();
+     ^
+configure:1539:6: note: 'sqrtf' is a builtin with type 'float (float)'
+1 warning generated.
+configure:1583:10: fatal error: 'floatingpoint.h' file not found
+#include <floatingpoint.h>
+         ^~~~~~~~~~~~~~~~~
+1 error generated.
+configure:1604: checking for alloca.h
+configure:1614: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:1646: checking for perl5
+configure:1679: checking for perl
+configure:1713: checking if __attribute__((constructor)) works
+configure:1736: gcc -o conftest -g -O -Wall -Wimplicit   conftest.c  1>&5
+configure:1729:2: warning: type specifier missing, defaults to 'int' [-Wimplicit-int]
+        main() {
+        ^
+configure:1731:6: error: call to undeclared library function 'exit' with type 'void (int) __attribute__((noreturn))'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+            exit (0);
+            ^
+configure:1731:6: note: include the header <stdlib.h> or explicitly provide a declaration for 'exit'
+1 warning and 1 error generated.
+configure: failed program was:
+#line 1723 "configure"
+#include "confdefs.h"
+int did_foo = 0;
+	void foo () __attribute__ ((constructor));
+	void foo () {
+	  did_foo = 1;
+	}
+	main() {
+	  if (did_foo)
+	    exit (0);
+	  exit (-1);
+	}
+configure:1756: checking for main in -lwsock32
+configure:1771: gcc -o conftest -g -O -Wall -Wimplicit   conftest.c -lwsock32   1>&5
+configure:1766:12: warning: all paths through this function will call itself [-Winfinite-recursion]
+int main() {
+           ^
+1 warning generated.
+ld: library not found for -lwsock32
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+configure: failed program was:
+#line 1764 "configure"
+#include "confdefs.h"
+
+int main() {
+main()
+; return 0; }

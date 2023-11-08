@@ -1,0 +1,1 @@
+INSERT INTO score (teamid, userid, score) VALUES (6, 11, 1)

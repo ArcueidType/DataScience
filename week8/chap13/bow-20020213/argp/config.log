@@ -1,0 +1,112 @@
+This file contains any messages produced by compilers while
+running configure, to aid debugging if configure makes a mistake.
+
+configure:537: checking for gcc
+configure:614: checking whether the C compiler (gcc -g -O -Wall ) works
+configure:628: gcc -o conftest -g -O -Wall   conftest.c  1>&5
+configure:625:1: warning: type specifier missing, defaults to 'int' [-Wimplicit-int]
+main(){return(0);}
+^
+1 warning generated.
+configure:648: checking whether the C compiler (gcc -g -O -Wall ) is a cross-compiler
+configure:653: checking whether we are using GNU C
+configure:677: checking whether gcc accepts -g
+configure:705: checking how to run the C preprocessor
+configure:797: checking for a BSD compatible install
+configure:849: checking for ranlib
+configure:881: checking for getopt.h
+configure:891: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:923: checking for getopt_long
+configure:951: gcc -o conftest -g -O -Wall   conftest.c  1>&5
+configure:982: checking for strerror
+configure:1039: checking for strndup
+configure:1067: gcc -o conftest -g -O -Wall   conftest.c  1>&5
+configure:1051:6: warning: incompatible redeclaration of library function 'strndup' [-Wincompatible-library-redeclaration]
+char strndup();
+     ^
+configure:1051:6: note: 'strndup' is a builtin with type 'char *(const char *, unsigned long)'
+1 warning generated.
+configure:1094: checking for ANSI C header files
+configure:1107: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:1174: gcc -o conftest -g -O -Wall   conftest.c  1>&5
+configure:1169:67: error: call to undeclared library function 'exit' with type 'void (int) __attribute__((noreturn))'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+if (XOR (islower (i), ISLOWER (i)) || toupper (i) != TOUPPER (i)) exit(2);
+                                                                  ^
+configure:1169:67: note: include the header <stdlib.h> or explicitly provide a declaration for 'exit'
+1 error generated.
+configure: failed program was:
+#line 1163 "configure"
+#include "confdefs.h"
+#include <ctype.h>
+#define ISLOWER(c) ('a' <= (c) && (c) <= 'z')
+#define TOUPPER(c) (ISLOWER(c) ? 'A' + ((c) - 'a') : (c))
+#define XOR(e, f) (((e) && !(f)) || (!(e) && (f)))
+int main () { int i; for (i = 0; i < 256; i++)
+if (XOR (islower (i), ISLOWER (i)) || toupper (i) != TOUPPER (i)) exit(2);
+exit (0); }
+
+configure:1198: checking for ssize_t
+configure:1235: checking for memmove
+configure:1263: gcc -o conftest -g -O -Wall   conftest.c  1>&5
+configure:1247:6: warning: incompatible redeclaration of library function 'memmove' [-Wincompatible-library-redeclaration]
+char memmove();
+     ^
+configure:1247:6: note: 'memmove' is a builtin with type 'void *(void *, const void *, unsigned long)'
+1 warning generated.
+configure:1235: checking for vsnprintf
+configure:1263: gcc -o conftest -g -O -Wall   conftest.c  1>&5
+configure:1247:6: warning: incompatible redeclaration of library function 'vsnprintf' [-Wincompatible-library-redeclaration]
+char vsnprintf();
+     ^
+configure:1247:6: note: 'vsnprintf' is a builtin with type 'int (char *, unsigned long, const char *, __builtin_va_list)'
+1 warning generated.
+configure:1292: checking for strerror
+configure:1349: checking for strings.h
+configure:1359: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:1390: checking if vsprintf returns int
+configure:1404: gcc -o conftest -g -O -Wall   conftest.c  1>&5
+configure:1397:1: warning: type specifier missing, defaults to 'int' [-Wimplicit-int]
+main() {
+^
+configure:1398:14: error: call to undeclared library function 'malloc' with type 'void *(unsigned long)'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+        char *buf = malloc(16);
+                    ^
+configure:1398:14: note: include the header <stdlib.h> or explicitly provide a declaration for 'malloc'
+configure:1399:16: error: call to undeclared library function 'vsprintf' with type 'int (char *, const char *, __builtin_va_list)'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+        if (2 == (int)vsprintf(buf, "12"))
+                      ^
+configure:1399:16: note: include the header <stdio.h> or explicitly provide a declaration for 'vsprintf'
+configure:1399:34: error: too few arguments to function call, expected 3, have 2
+        if (2 == (int)vsprintf(buf, "12"))
+                      ~~~~~~~~          ^
+configure:1400:4: error: call to undeclared library function 'exit' with type 'void (int) __attribute__((noreturn))'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+          exit (0);
+          ^
+configure:1400:4: note: include the header <stdlib.h> or explicitly provide a declaration for 'exit'
+1 warning and 4 errors generated.
+configure: failed program was:
+#line 1396 "configure"
+#include "confdefs.h"
+main() {
+	char *buf = malloc(16);
+	if (2 == (int)vsprintf(buf, "12"))
+	  exit (0);
+	exit (-1);}
+configure:1426: checking program_invocation_name
+configure:1435: gcc -o conftest -g -O -Wall   conftest.c  1>&5
+configure:1431:12: error: function definition is not allowed here
+void foo() {program_invocation_name = "foo";}
+           ^
+1 error generated.
+configure: failed program was:
+#line 1428 "configure"
+#include "confdefs.h"
+
+int main() {
+void foo() {program_invocation_name = "foo";}
+; return 0; }
+configure:1455: checking for ANSI C header files
+configure:1562: checking for string.h
+configure:1572: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:1562: checking for memory.h
+configure:1572: gcc -E  conftest.c >/dev/null 2>conftest.out
