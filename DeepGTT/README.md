@@ -8,7 +8,7 @@
 1. [Barefoot](https://github.com/boathit/barefoot)
 2. [DeepGTT](https://github.com/boathit/deepgtt)
 
-## 路径可视化基于[Open Street Map](www.openstreetmap.org)开源地图数据
+## 路径可视化基于[Open Street Map](https://www.openstreetmap.org/)开源地图数据
 
 ## 学习并预测行程时间分布而非均值的意义：
 
