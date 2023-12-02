@@ -9,55 +9,55 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = VisualServer
 build_property.RootNamespace = VisualServer
-build_property.ProjectDir = /Users/arcueid/DeepGTT/VisualServer/
+build_property.ProjectDir = /Users/arcueid/program/dsprogarm/DeepGTT/VisualServer/
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = /Users/arcueid/DeepGTT/VisualServer
+build_property.MSBuildProjectDirectory = /Users/arcueid/program/dsprogarm/DeepGTT/VisualServer
 build_property._RazorSourceGeneratorDebug = 
 
-[/Users/arcueid/DeepGTT/VisualServer/Components/App.razor]
+[/Users/arcueid/program/dsprogarm/DeepGTT/VisualServer/Components/App.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9BcHAucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/arcueid/DeepGTT/VisualServer/Components/Pages/Counter.razor]
+[/Users/arcueid/program/dsprogarm/DeepGTT/VisualServer/Components/Pages/Counter.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9QYWdlcy9Db3VudGVyLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/arcueid/DeepGTT/VisualServer/Components/Pages/Error.razor]
+[/Users/arcueid/program/dsprogarm/DeepGTT/VisualServer/Components/Pages/Error.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9QYWdlcy9FcnJvci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/arcueid/DeepGTT/VisualServer/Components/Pages/Home.razor]
+[/Users/arcueid/program/dsprogarm/DeepGTT/VisualServer/Components/Pages/Home.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9QYWdlcy9Ib21lLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/arcueid/DeepGTT/VisualServer/Components/Pages/ShowGPS.razor]
+[/Users/arcueid/program/dsprogarm/DeepGTT/VisualServer/Components/Pages/ShowGPS.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9QYWdlcy9TaG93R1BTLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/arcueid/DeepGTT/VisualServer/Components/Pages/ShowPath.razor]
+[/Users/arcueid/program/dsprogarm/DeepGTT/VisualServer/Components/Pages/ShowPath.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9QYWdlcy9TaG93UGF0aC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/arcueid/DeepGTT/VisualServer/Components/Pages/Weather.razor]
+[/Users/arcueid/program/dsprogarm/DeepGTT/VisualServer/Components/Pages/Weather.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9QYWdlcy9XZWF0aGVyLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/arcueid/DeepGTT/VisualServer/Components/Routes.razor]
+[/Users/arcueid/program/dsprogarm/DeepGTT/VisualServer/Components/Routes.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9Sb3V0ZXMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/arcueid/DeepGTT/VisualServer/Components/_Imports.razor]
+[/Users/arcueid/program/dsprogarm/DeepGTT/VisualServer/Components/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9fSW1wb3J0cy5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/arcueid/DeepGTT/VisualServer/Components/Layout/MainLayout.razor]
+[/Users/arcueid/program/dsprogarm/DeepGTT/VisualServer/Components/Layout/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9MYXlvdXQvTWFpbkxheW91dC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = b-xs4rkvdp9q
 
-[/Users/arcueid/DeepGTT/VisualServer/Components/Layout/NavMenu.razor]
+[/Users/arcueid/program/dsprogarm/DeepGTT/VisualServer/Components/Layout/NavMenu.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9MYXlvdXQvTmF2TWVudS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = b-cq7k6porbk

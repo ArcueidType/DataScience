@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "lnq0gkX3BmYeXjqxc7WD7aOGSH3fyoynAeDtgWPqknQ=",
+  "Hash": "PJhOZ2UjNA0enf2ldr7c6QjueGh0DfLsMvHvIClti3Y=",
   "Source": "VisualServer",
   "BasePath": "_content/VisualServer",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "VisualServer/wwwroot",
       "Source": "VisualServer",
-      "ContentRoot": "/Users/arcueid/DeepGTT/VisualServer/wwwroot/",
+      "ContentRoot": "/Users/arcueid/program/dsprogarm/DeepGTT/VisualServer/wwwroot/",
       "BasePath": "_content/VisualServer",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "/Users/arcueid/DeepGTT/VisualServer/obj/Debug/net8.0/scopedcss/bundle/VisualServer.styles.css",
+      "Identity": "/Users/arcueid/program/dsprogarm/DeepGTT/VisualServer/obj/Debug/net8.0/scopedcss/bundle/VisualServer.styles.css",
       "SourceId": "VisualServer",
       "SourceType": "Computed",
-      "ContentRoot": "/Users/arcueid/DeepGTT/VisualServer/obj/Debug/net8.0/scopedcss/bundle/",
+      "ContentRoot": "/Users/arcueid/program/dsprogarm/DeepGTT/VisualServer/obj/Debug/net8.0/scopedcss/bundle/",
       "BasePath": "_content/VisualServer",
       "RelativePath": "VisualServer.styles.css",
       "AssetKind": "All",
@@ -33,13 +33,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/Users/arcueid/DeepGTT/VisualServer/obj/Debug/net8.0/scopedcss/bundle/VisualServer.styles.css"
+      "OriginalItemSpec": "/Users/arcueid/program/dsprogarm/DeepGTT/VisualServer/obj/Debug/net8.0/scopedcss/bundle/VisualServer.styles.css"
     },
     {
-      "Identity": "/Users/arcueid/DeepGTT/VisualServer/obj/Debug/net8.0/scopedcss/projectbundle/VisualServer.bundle.scp.css",
+      "Identity": "/Users/arcueid/program/dsprogarm/DeepGTT/VisualServer/obj/Debug/net8.0/scopedcss/projectbundle/VisualServer.bundle.scp.css",
       "SourceId": "VisualServer",
       "SourceType": "Computed",
-      "ContentRoot": "/Users/arcueid/DeepGTT/VisualServer/obj/Debug/net8.0/scopedcss/projectbundle/",
+      "ContentRoot": "/Users/arcueid/program/dsprogarm/DeepGTT/VisualServer/obj/Debug/net8.0/scopedcss/projectbundle/",
       "BasePath": "_content/VisualServer",
       "RelativePath": "VisualServer.bundle.scp.css",
       "AssetKind": "All",
@@ -52,13 +52,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/Users/arcueid/DeepGTT/VisualServer/obj/Debug/net8.0/scopedcss/projectbundle/VisualServer.bundle.scp.css"
+      "OriginalItemSpec": "/Users/arcueid/program/dsprogarm/DeepGTT/VisualServer/obj/Debug/net8.0/scopedcss/projectbundle/VisualServer.bundle.scp.css"
     },
     {
-      "Identity": "/Users/arcueid/DeepGTT/VisualServer/wwwroot/app.css",
+      "Identity": "/Users/arcueid/program/dsprogarm/DeepGTT/VisualServer/wwwroot/app.css",
       "SourceId": "VisualServer",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/arcueid/DeepGTT/VisualServer/wwwroot/",
+      "ContentRoot": "/Users/arcueid/program/dsprogarm/DeepGTT/VisualServer/wwwroot/",
       "BasePath": "_content/VisualServer",
       "RelativePath": "app.css",
       "AssetKind": "All",
@@ -74,10 +74,10 @@
       "OriginalItemSpec": "wwwroot/app.css"
     },
     {
-      "Identity": "/Users/arcueid/DeepGTT/VisualServer/wwwroot/bootstrap/bootstrap.min.css",
+      "Identity": "/Users/arcueid/program/dsprogarm/DeepGTT/VisualServer/wwwroot/bootstrap/bootstrap.min.css",
       "SourceId": "VisualServer",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/arcueid/DeepGTT/VisualServer/wwwroot/",
+      "ContentRoot": "/Users/arcueid/program/dsprogarm/DeepGTT/VisualServer/wwwroot/",
       "BasePath": "_content/VisualServer",
       "RelativePath": "bootstrap/bootstrap.min.css",
       "AssetKind": "All",
@@ -93,10 +93,10 @@
       "OriginalItemSpec": "wwwroot/bootstrap/bootstrap.min.css"
     },
     {
-      "Identity": "/Users/arcueid/DeepGTT/VisualServer/wwwroot/bootstrap/bootstrap.min.css.map",
+      "Identity": "/Users/arcueid/program/dsprogarm/DeepGTT/VisualServer/wwwroot/bootstrap/bootstrap.min.css.map",
       "SourceId": "VisualServer",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/arcueid/DeepGTT/VisualServer/wwwroot/",
+      "ContentRoot": "/Users/arcueid/program/dsprogarm/DeepGTT/VisualServer/wwwroot/",
       "BasePath": "_content/VisualServer",
       "RelativePath": "bootstrap/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -112,10 +112,10 @@
       "OriginalItemSpec": "wwwroot/bootstrap/bootstrap.min.css.map"
     },
     {
-      "Identity": "/Users/arcueid/DeepGTT/VisualServer/wwwroot/favicon.png",
+      "Identity": "/Users/arcueid/program/dsprogarm/DeepGTT/VisualServer/wwwroot/favicon.png",
       "SourceId": "VisualServer",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/arcueid/DeepGTT/VisualServer/wwwroot/",
+      "ContentRoot": "/Users/arcueid/program/dsprogarm/DeepGTT/VisualServer/wwwroot/",
       "BasePath": "_content/VisualServer",
       "RelativePath": "favicon.png",
       "AssetKind": "All",

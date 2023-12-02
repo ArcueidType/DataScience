@@ -273,6 +273,8 @@ mv data/trainpath/150106.h5 data/validpath && mv data/trainpath/150107.h5 data/t
 
 >训练时要确保`Map Server`处于运行状态(postgresql的地图数据库服务器处于运行状态)
 
+**注意这里我把训练的设备强制为`mps`了，如果是非Mac请使用`train.py`中被注释掉的设备选择**
+
 切换到目录`deepgtt/harbin/python`
 
 ```bash

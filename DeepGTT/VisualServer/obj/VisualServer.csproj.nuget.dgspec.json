@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/arcueid/DeepGTT/VisualServer/VisualServer.csproj": {}
+    "/Users/arcueid/program/dsprogarm/DeepGTT/VisualServer/VisualServer.csproj": {}
   },
   "projects": {
-    "/Users/arcueid/DeepGTT/VisualServer/VisualServer.csproj": {
+    "/Users/arcueid/program/dsprogarm/DeepGTT/VisualServer/VisualServer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/arcueid/DeepGTT/VisualServer/VisualServer.csproj",
+        "projectUniqueName": "/Users/arcueid/program/dsprogarm/DeepGTT/VisualServer/VisualServer.csproj",
         "projectName": "VisualServer",
-        "projectPath": "/Users/arcueid/DeepGTT/VisualServer/VisualServer.csproj",
+        "projectPath": "/Users/arcueid/program/dsprogarm/DeepGTT/VisualServer/VisualServer.csproj",
         "packagesPath": "/Users/arcueid/.nuget/packages/",
-        "outputPath": "/Users/arcueid/DeepGTT/VisualServer/obj/",
+        "outputPath": "/Users/arcueid/program/dsprogarm/DeepGTT/VisualServer/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/arcueid/.nuget/NuGet/NuGet.Config"

@@ -61,7 +61,8 @@ parser.add_argument("-random_emit", action="store_true")
 args = parser.parse_args()
 print(args)
 
-device = torch.device("cuda" if args.use_cuda and torch.cuda.is_available() else "cpu")
+# device = torch.device("cuda" if args.use_cuda and torch.cuda.is_available() else "cpu")
+device = 'mps'
 torch.cuda.manual_seed_all(12)
 ##############################################################################
 
