@@ -4,3 +4,24 @@
 
 /week8/chap13/mini_newsgroups
 
+/DeepGTT/deepgtt/data/h5path/trips_150103.h5
+/DeepGTT/deepgtt/data/h5path/trips_150104.h5
+/DeepGTT/deepgtt/data/h5path/trips_150105.h5
+/DeepGTT/deepgtt/data/h5path/trips_150106.h5
+/DeepGTT/deepgtt/data/h5path/trips_150107.h5
+
+DeepGTT/deepgtt/data/jldpath/trips_150103.jld2
+DeepGTT/deepgtt/data/jldpath/trips_150104.jld2
+DeepGTT/deepgtt/data/jldpath/trips_150105.jld2
+DeepGTT/deepgtt/data/jldpath/trips_150106.jld2
+DeepGTT/deepgtt/data/jldpath/trips_150107.jld2
+
+DeepGTT/deepgtt/data/testpath/150107.h5
+
+DeepGTT/deepgtt/data/trainpath/150103.h5
+DeepGTT/deepgtt/data/trainpath/150104.h5
+DeepGTT/deepgtt/data/trainpath/150105.h5
+
+DeepGTT/deepgtt/data/validpath/150106.h5
+
+DeepGTT/barefoot/map/osm/china.osm.pbf
