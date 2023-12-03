@@ -65,7 +65,7 @@ with h5py.File('./data/trainpath/150104.h5', 'r') as file_ways:
             count_path += 1
 
         file_name = 'match_map.html'
-        file_path = 'file:///Users/arcueid/DeepGTT/deepgtt/' + file_name
+        file_path = 'file:///Users/arcueid/program/dsprogarm/DeepGTT/deepgtt/' + file_name
         match_map.save(file_name)
         webbrowser.open_new_tab(file_path)
         # plt.title('Ways After Matching')
