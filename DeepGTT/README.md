@@ -28,6 +28,8 @@
 
 # 我使用的操作系统是MacOS，M芯片
 
+>理论上Ubuntu也行，我使用的是MacOS(M2)，windows没有进行过测试
+
 ## Barefoot
 
 ### Map Server
@@ -118,7 +120,6 @@ Matching Server基于Hidden Markov Map Matching，处理传入的位置数据，
 
 >现在开始进入目录deepgtt中
 
-* 理论上Ubuntu也行，我使用的是MacOS(M2)，windows没有进行过测试
 * 需要[Julia](https://julialang.org/downloads/) >= 1.0
 * Python >= 3.6(numpy版本过新会有一些问题，我已经对源代码进行过修改，所以现在也不会有问题)
 * PyTorch(我用的是2.1.1，理论上>=0.4)
